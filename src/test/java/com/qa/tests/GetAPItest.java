@@ -31,6 +31,8 @@ public class GetAPItest extends TestBase {
 	@Test
 	public void getTest() throws ClientProtocolException, IOException{
 		
+		 System.out.println("git testing");
+		
 		restClient = new RestClient();
 		 restClient.get(url);
 		
